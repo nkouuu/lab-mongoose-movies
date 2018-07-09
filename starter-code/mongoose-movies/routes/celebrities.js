@@ -72,6 +72,7 @@ router.post("/:id", (req, res, next) => {
     .catch(err => {
       console.log("Error saving celebrity");
     });
+    
 });
 
 module.exports = router;
